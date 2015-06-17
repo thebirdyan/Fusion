@@ -235,13 +235,13 @@ namespace cl {
 		}
 	};
 
-	typedef vec2<int> int2;
-	typedef vec3<int> int3;
-	typedef vec4<int> int4;
+	typedef vec2<cl_int> int2;
+	typedef vec3<cl_int> int3;
+	typedef vec4<cl_int> int4;
 
-	typedef vec2<float> float2;
-	typedef vec3<float> float3;
-	typedef vec4<float> float4;
+	typedef vec2<cl_float> float2;
+	typedef vec3<cl_float> float3;
+	typedef vec4<cl_float> float4;
 
 	typedef vec2<size_t> size2;
 	typedef vec3<size_t> size3;
